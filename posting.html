@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#FFD12E">
+		<meta name="theme-color" content="#FFD12E">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="mob_close_btn"></button>
+
+					<div class="scroll">
+						<div class="cont row">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+							</div>
+
+							<div class="data">
+								<div class="row">
+									<div class="links">
+										<div><a href="/">Музеи</a></div>
+										<div><a href="/">Театр</a></div>
+										<div><a href="/">Кино</a></div>
+										<div><a href="/">Квесты</a></div>
+										<div><a href="/">Парки</a></div>
+										<div><a href="/">Обучение</a></div>
+										<div><a href="/">Природа</a></div>
+									</div>
+
+									<div class="account">
+										<button class="btn modal_btn" data-modal="auth_modal">Войти</button>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="search">
+										<form action="">
+											<input type="text" name="" value="" class="input" placeholder="поиск">
+
+											<button type="submit" class="submit_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+											</button>
+										</form>
+									</div>
+
+									<nav class="menu">
+										<div class="responsive_menu row">
+											<div class="item">
+												<a href="/">День Рождения</a>
+											</div>
+
+											<div class="item">
+												<a href="/">Бесплатно</a>
+											</div>
+
+											<div class="item">
+												<a href="/">Подмосковье и область</a>
+											</div>
+
+											<div class="item">
+												<a href="/">Рекомендуем</a>
+											</div>
+
+											<div class="item">
+												<a href="/">День Рождения</a>
+											</div>
+
+											<div class="item">
+												<a href="/">Бесплатно</a>
+											</div>
+
+											<div class="item">
+												<a href="/">Подмосковье и область</a>
+											</div>
+
+											<div class="item">
+												<a href="/">Рекомендуем</a>
+											</div>
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<h1 class="page_title">Размещение на сайте</h1>
+
+						<div class="page_desc">вы можете заказать размещение своего события или места.<br> ниже представлены форматы размещения</div>
+					</div>
+				</section>
+
+
+				<section class="posting_formats tabs_container">
+					<div class="cont">
+						<div class="title">форматы размещения</div>
+
+						<div class="tabs">
+							<button data-content="#posting_formats_tab1" data-level="level1" class="btn active">событие</button>
+
+							<button data-content="#posting_formats_tab2" data-level="level1" class="btn">место</button>
+
+							<button data-content="#posting_formats_tab3" data-level="level1" class="btn">статья</button>
+						</div>
+
+
+						<div class="tab_content level1 active" id="posting_formats_tab1">
+							<div class="row">
+								<div class="item">
+									<div class="thumb">
+										<img data-src="images/tmp/posting_formats_thumb.jpg" alt="" class="lazyload">
+
+										<div class="price">11 500 ₽</div>
+									</div>
+
+									<div class="info">
+										<div class="name">Размещение в каталоге</div>
+
+										<div class="desc">
+											<ul>
+												<li>Гарантированное размещение за 1 рабочий день</li>
+
+												<li>Включение страницы события в поиск на сайте, а также в соответствующие выборки по дате, типам события и тегам</li>
+											</ul>
+										</div>
+
+										<button class="btn">заказать</button>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="thumb">
+										<div class="sticker hit">хит</div>
+
+										<img data-src="images/tmp/posting_formats_thumb.jpg" alt="" class="lazyload">
+
+										<div class="price">15 500 ₽</div>
+									</div>
+
+									<div class="info">
+										<div class="name">размещение в каталоге + «рекомендуем»</div>
+
+										<div class="desc">
+											<ul>
+												<li>Гарантированное размещение за 1 рабочий день</li>
+
+												<li>Включение страницы события в поиск на сайте, а также в соответствующие выборки по дате, типам события и тегам</li>
+
+												<li>Добавление вашего места в раздел «Рекомендуем»</li>
+											</ul>
+										</div>
+
+										<button class="btn">заказать</button>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="thumb">
+										<img data-src="images/tmp/posting_formats_thumb.jpg" alt="" class="lazyload">
+
+										<div class="price">20 500 ₽</div>
+									</div>
+
+									<div class="info">
+										<div class="name">размещение в каталоге + «рекомендуем» + топы</div>
+
+										<div class="desc">
+											<ul>
+												<li>Гарантированное размещение за 1 рабочий день</li>
+
+												<li>Включение страницы события в поиск на сайте, а также в соответствующие выборки по дате, типам события и тегам</li>
+
+												<li>Добавление вашего места в подборки и топы по вашей тематике</li>
+
+												<li>Добавление вашего места в раздел «Рекомендуем»</li>
+											</ul>
+										</div>
+
+										<button class="btn">заказать</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="tab_content level1" id="posting_formats_tab2">
+							<div class="row">
+								<div class="item">
+									<div class="thumb">
+										<img data-src="images/tmp/posting_formats_thumb.jpg" alt="" class="lazyload">
+
+										<div class="price">11 500 ₽</div>
+									</div>
+
+									<div class="info">
+										<div class="name">Размещение в каталоге</div>
+
+										<div class="desc">
+											<ul>
+												<li>Гарантированное размещение за 1 рабочий день</li>
+
+												<li>Включение страницы события в поиск на сайте, а также в соответствующие выборки по дате, типам события и тегам</li>
+											</ul>
+										</div>
+
+										<button class="btn">заказать</button>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="thumb">
+										<div class="sticker hit">хит</div>
+
+										<img data-src="images/tmp/posting_formats_thumb.jpg" alt="" class="lazyload">
+
+										<div class="price">15 500 ₽</div>
+									</div>
+
+									<div class="info">
+										<div class="name">размещение в каталоге + «рекомендуем»</div>
+
+										<div class="desc">
+											<ul>
+												<li>Гарантированное размещение за 1 рабочий день</li>
+
+												<li>Включение страницы события в поиск на сайте, а также в соответствующие выборки по дате, типам события и тегам</li>
+
+												<li>Добавление вашего места в раздел «Рекомендуем»</li>
+											</ul>
+										</div>
+
+										<button class="btn">заказать</button>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="thumb">
+										<img data-src="images/tmp/posting_formats_thumb.jpg" alt="" class="lazyload">
+
+										<div class="price">20 500 ₽</div>
+									</div>
+
+									<div class="info">
+										<div class="name">размещение в каталоге + «рекомендуем» + топы</div>
+
+										<div class="desc">
+											<ul>
+												<li>Гарантированное размещение за 1 рабочий день</li>
+
+												<li>Включение страницы события в поиск на сайте, а также в соответствующие выборки по дате, типам события и тегам</li>
+
+												<li>Добавление вашего места в подборки и топы по вашей тематике</li>
+
+												<li>Добавление вашего места в раздел «Рекомендуем»</li>
+											</ul>
+										</div>
+
+										<button class="btn">заказать</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="tab_content level1" id="posting_formats_tab3">
+							<div class="row">
+								<div class="item">
+									<div class="thumb">
+										<img data-src="images/tmp/posting_formats_thumb.jpg" alt="" class="lazyload">
+
+										<div class="price">11 500 ₽</div>
+									</div>
+
+									<div class="info">
+										<div class="name">Размещение в каталоге</div>
+
+										<div class="desc">
+											<ul>
+												<li>Гарантированное размещение за 1 рабочий день</li>
+
+												<li>Включение страницы события в поиск на сайте, а также в соответствующие выборки по дате, типам события и тегам</li>
+											</ul>
+										</div>
+
+										<button class="btn">заказать</button>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="thumb">
+										<div class="sticker hit">хит</div>
+
+										<img data-src="images/tmp/posting_formats_thumb.jpg" alt="" class="lazyload">
+
+										<div class="price">15 500 ₽</div>
+									</div>
+
+									<div class="info">
+										<div class="name">размещение в каталоге + «рекомендуем»</div>
+
+										<div class="desc">
+											<ul>
+												<li>Гарантированное размещение за 1 рабочий день</li>
+
+												<li>Включение страницы события в поиск на сайте, а также в соответствующие выборки по дате, типам события и тегам</li>
+
+												<li>Добавление вашего места в раздел «Рекомендуем»</li>
+											</ul>
+										</div>
+
+										<button class="btn">заказать</button>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="thumb">
+										<img data-src="images/tmp/posting_formats_thumb.jpg" alt="" class="lazyload">
+
+										<div class="price">20 500 ₽</div>
+									</div>
+
+									<div class="info">
+										<div class="name">размещение в каталоге + «рекомендуем» + топы</div>
+
+										<div class="desc">
+											<ul>
+												<li>Гарантированное размещение за 1 рабочий день</li>
+
+												<li>Включение страницы события в поиск на сайте, а также в соответствующие выборки по дате, типам события и тегам</li>
+
+												<li>Добавление вашего места в подборки и топы по вашей тематике</li>
+
+												<li>Добавление вашего места в раздел «Рекомендуем»</li>
+											</ul>
+										</div>
+
+										<button class="btn">заказать</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="posting_on_website">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">нестандартный подход</div>
+						</div>
+
+						<div class="row">
+							<div class="text_block">
+								<p>Люди, которые умею писать книги, рисовать картины или сочинять музыку не могут однозначно ответить на этот вопрос. Сходятся они только в одном: это нечто идет откуда-то из глубин души. Иногда приходится пересматривать этюды или подбирать бесконечно сочетание музыкальных инструментов. Так делают и дети. Думают над рисунками, бесконечно стучат по предметам и выбирают наряды по сочетанию цветов. Это тоже проявление творческого начала. Важно не гасить его.</p>
+
+								<p>Нельзя оскорблять порывы ребенка, какими бы они не были. Если он рисует на стенах, то установите специальное покрытие, имитирующее доску для рисования. Либо можно расклеить везде ватман. Еще можно приучать к уборке места для занятий. Еще дети любят петь и танцевать. Не нужно гасить в них это стремление. Даже если их движение неуклюжие и смешные — одобряйте ребенка.</p>
+
+								<p>Творческие способности помогут и в других делах. Например, в учебе, работе или повседневных делах. С творческим началом легче видеть красоту в простых вещах. Например, в паутине на листьях или полевых цветах.</p>
+							</div>
+
+							<form action="" class="form">
+								<div class="title">заполните форму и получите предложение по рекламе</div>
+
+								<div class="line">
+									<div class="field">
+										<input type="text" name="" value="" class="input" placeholder="Ваше имя">
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="field">
+										<input type="email" name="" value="" class="input" placeholder="ваша Почта">
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="field">
+										<input type="url" name="" value="" class="input" placeholder="ссылка на ваш проект">
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="field">
+										<select name="" data-placeholder="выберите формат размещения">
+											<option value="1">Вариант 1</option>
+											<option value="2">Вариант 2</option>
+											<option value="3">Вариант 3</option>
+											<option value="4">Вариант 4</option>
+										</select>
+
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</div>
+								</div>
+
+								<div class="submit">
+									<button type="submit" class="submit_btn">отправить</button>
+								</div>
+
+								<div class="agree">
+									<a href="/" target="_blank">Вот наша политика обработки данных</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="marquees">
+					<div class="swiper blue">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">Музеи</div>
+							<div class="swiper-slide">Театр</div>
+							<div class="swiper-slide">Кино</div>
+							<div class="swiper-slide">Квесты</div>
+							<div class="swiper-slide">Парки</div>
+							<div class="swiper-slide">Обучение</div>
+							<div class="swiper-slide">Природа</div>
+							<div class="swiper-slide">День Рождения</div>
+							<div class="swiper-slide">Бесплатно</div>
+							<div class="swiper-slide">Город</div>
+							<div class="swiper-slide">Загоро</div>
+							<div class="swiper-slide">Зоопарки</div>
+							<div class="swiper-slide">Каткио</div>
+							<div class="swiper-slide">Бесплатно</div>
+							<div class="swiper-slide">Бесплатно</div>
+						</div>
+					</div>
+
+					<div class="swiper green skew" data-reverse="true">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">Музеи</div>
+							<div class="swiper-slide">Театр</div>
+							<div class="swiper-slide">Кино</div>
+							<div class="swiper-slide">Квесты</div>
+							<div class="swiper-slide">Парки</div>
+							<div class="swiper-slide">Обучение</div>
+							<div class="swiper-slide">Природа</div>
+							<div class="swiper-slide">День Рождения</div>
+							<div class="swiper-slide">Бесплатно</div>
+							<div class="swiper-slide">Город</div>
+							<div class="swiper-slide">Загоро</div>
+							<div class="swiper-slide">Зоопарки</div>
+							<div class="swiper-slide">Каткио</div>
+							<div class="swiper-slide">Бесплатно</div>
+							<div class="swiper-slide">Бесплатно</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<div class="links">
+							<div><a href="/">О нас</a></div>
+							<div><a href="/">Реклама на сайте</a></div>
+							<div><a href="/">Размещение события</a></div>
+						</div>
+
+						<div class="copyright">
+							<div>&copy; 2023 ООО «Кудакид». Все права защищены. Для лиц старше 6 лет.</div>
+
+							<div><a href="/">Пользовательское соглашение</a></div>
+
+							<div><a href="/">Политика конфиденциальности</a></div>
+						</div>
+					</div>
+
+					<div class="socials">
+						<a href="/" target="_blank" rel="noopener nofollow">
+							<img src="images/ic_youtube.svg" alt="">
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow">
+							<img src="images/ic_vk.svg" alt="">
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow">
+							<img src="images/ic_telegram.svg" alt="">
+						</a>
+
+						<a href="mailto:">
+							<img src="images/ic_email.svg" alt="">
+						</a>
+					</div>
+				</div>
+
+				<img data-src="images/bg_footer.svg" alt="" class="bg lazyload">
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section class="modal tabs_container" id="auth_modal">
+			<div class="auth">
+				<div class="tabs">
+					<button data-content="#auth_tab1" data-level="level1" class="btn">регистрация</button>
+
+					<button data-content="#auth_tab2" data-level="level1" class="btn active">вход</button>
+				</div>
+
+
+				<div class="tab_content level1" id="auth_tab1">
+					<form action="" class="form">
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Имя и фамилия">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="email" name="" value="" class="input" placeholder="ваша Почта">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="password" name="" value="" class="input" placeholder="Придумайте пароль">
+							</div>
+						</div>
+
+						<div class="submit">
+							<button type="submit" class="submit_btn" disabled>зарегистироваться</button>
+						</div>
+
+						<div class="agree">
+							<a href="/" target="_blank">Вот наша политика обработки данных</a>
+						</div>
+
+						<div class="soc_auth">
+							<div class="label">Войдите через соцсети</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_soc_auth_vk.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_soc_auth_x.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_soc_auth_fb.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_soc_auth_google.svg" alt="">
+								</a>
+							</div>
+						</div>
+					</form>
+				</div>
+
+
+				<div class="tab_content level1 active" id="auth_tab2">
+					<form action="" class="form">
+						<div class="line">
+							<div class="field">
+								<input type="email" name="" value="" class="input" placeholder="Ваша почта">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="password" name="" value="" class="input" placeholder="Пароль">
+							</div>
+						</div>
+
+						<div class="submit">
+							<button type="submit" class="submit_btn" disabled>Войти</button>
+						</div>
+
+						<div class="soc_auth">
+							<div class="label">Войдите через соцсети</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_soc_auth_vk.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_soc_auth_x.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_soc_auth_fb.svg" alt="">
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<img src="images/ic_soc_auth_google.svg" alt="">
+								</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/nice-select2.js"></script>
+		<script src="js/responsiveMenu.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

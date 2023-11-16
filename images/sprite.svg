@@ -1,0 +1,22 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 22" id="ic_arr_hor">
+    <path d="M11 0.999998L1.81367 9.23232C0.72878 10.2045 0.728781 11.7955 1.81367 12.7677L11 21" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5" id="ic_arr_ver">
+    <path id="Vector" d="M8.92 1L5.66 4.26C5.275 4.645 4.645 4.645 4.26 4.26L1 1" stroke="currentColor" stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 10" id="ic_close">
+    <path d="M8.07129 1.46484L1.00022 8.53591" stroke="currentColor" stroke-linecap="round" fill="none"></path>
+    <path d="M1 1.46484L8.07107 8.53591" stroke="currentColor" stroke-linecap="round" fill="none"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" id="ic_favorite">
+    <path d="M8.7 0.364258C10.5228 0.364258 12 1.85074 12 3.93183C12 8.09399 7.5 10.4724 6 11.3643C4.5 10.4724 0 8.09399 0 3.93183C0 1.85074 1.5 0.364258 3.3 0.364258C4.416 0.364258 5.4 0.958852 6 1.55345C6.6 0.958852 7.584 0.364258 8.7 0.364258ZM6.5604 9.64231C7.089 9.31172 7.566 8.98291 8.0124 8.63091C9.801 7.22172 10.8 5.68172 10.8 3.93183C10.8 2.52858 9.8778 1.55345 8.7 1.55345C8.0544 1.55345 7.356 1.89237 6.8484 2.3942L6 3.23496L5.1516 2.3942C4.644 1.89237 3.9456 1.55345 3.3 1.55345C2.136 1.55345 1.2 2.5381 1.2 3.93183C1.2 5.68231 2.1996 7.22172 3.987 8.63091C4.434 8.98291 4.911 9.31172 5.4396 9.64172C5.619 9.7541 5.7966 9.86172 6 9.98182C6.2034 9.86172 6.381 9.7541 6.5604 9.64231Z" fill="currentColor"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" id="ic_search">
+    <path d="M6.7 12.4C9.84802 12.4 12.4 9.84802 12.4 6.7C12.4 3.55198 9.84802 1 6.7 1C3.55198 1 1 3.55198 1 6.7C1 9.84802 3.55198 12.4 6.7 12.4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+    <path d="M14.2 14.2L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 26" id="ic_telegram">
+    <path d="M1.90056 11.3231C1.90056 11.3231 15.6111 5.61558 20.3662 3.60583C22.189 2.802 28.3706 0.229512 28.3706 0.229512C28.3706 0.229512 31.2237 -0.895852 30.9859 1.83729C30.9066 2.96276 30.2726 6.90171 29.6387 11.1623C28.6876 17.1914 27.6573 23.7832 27.6573 23.7832C27.6573 23.7832 27.4988 25.6322 26.1516 25.9537C24.8043 26.2752 22.5852 24.8283 22.189 24.5067C21.8719 24.2656 16.2451 20.6481 14.1846 18.8795C13.6298 18.3972 12.9958 17.4326 14.2638 16.3072C17.1169 13.6543 20.5247 10.3585 22.5852 8.26839C23.5363 7.30368 24.4872 5.05284 20.5247 7.78598C14.8978 11.725 9.35022 15.4229 9.35022 15.4229C9.35022 15.4229 8.08216 16.2267 5.70464 15.5032C3.327 14.7798 0.553193 13.8151 0.553193 13.8151C0.553193 13.8151 -1.34874 12.6093 1.90056 11.3231Z" fill="currentColor"></path>
+  </symbol>
+</svg>
