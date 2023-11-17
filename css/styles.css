@@ -1092,7 +1092,7 @@ aside .banner img
 .page_head
 {
     position: relative;
-    z-index: 3;
+    z-index: 7;
 
     padding: 40px 0;
 }
@@ -1392,7 +1392,7 @@ aside .banner img
 .form textarea
 {
     color: var(--text_color);
-    font-family: var(--font_family);
+    font-family: var(--font_family2);
     font-size: var(--font_size);
 
     display: block;
@@ -2005,7 +2005,7 @@ aside .banner img
     display: block;
     overflow: hidden;
 
-    padding-left: 16px;
+    padding-left: 20px;
 
     list-style-type: none;
 }
@@ -2014,7 +2014,7 @@ aside .banner img
 {
     position: absolute;
     top: 6px;
-    left: 0;
+    left: 8px;
 
     display: block;
 
@@ -2568,7 +2568,7 @@ aside .banner img
 .posting_formats .item .thumb:after
 {
     position: absolute;
-    z-index: 3;
+    z-index: 2;
     top: 0;
     left: 0;
 
@@ -2666,7 +2666,7 @@ aside .banner img
     font-size: 20px;
     line-height: 120%;
 
-    padding: 0 30px;
+    padding: 0 27px;
 
     text-transform: uppercase;
 }
@@ -2679,7 +2679,7 @@ aside .banner img
     font-size: 12px;
     line-height: 120%;
 
-    padding: 20px 30px;
+    padding: 20px 27px;
 }
 
 
@@ -2955,6 +2955,8 @@ aside .banner img
 .last_comments .swiper-slide
 {
     position: relative;
+
+    width: 400px;
 
     transition: opacity .2s linear;
     pointer-events: none;
@@ -5131,6 +5133,7 @@ aside .banner img
 
 .event_info .tags
 {
+    color: #1d1d1d;
     font-family: var(--font_family2);
     line-height: 120%;
 
@@ -5951,9 +5954,9 @@ footer .bg
 
     display: block;
 
-    width: 527px;
+    width: 1292px;
     height: 372px;
-    margin-right: -572px;
+    margin-right: -714px;
 
     pointer-events: none;
 }

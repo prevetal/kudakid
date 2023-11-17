@@ -96,16 +96,8 @@ document.addEventListener('DOMContentLoaded', function () {
 				loadOnTransitionStart: true,
 				loadPrevNext: true
 			},
-			breakpoints: {
-				0: {
-					spaceBetween: 20,
-					slidesPerView: 'auto'
-				},
-				1440: {
-					spaceBetween: 20,
-					slidesPerView: 3
-				}
-			}
+			spaceBetween: 20,
+			slidesPerView: 'auto'
 		}
 
 		lastCommentsSliders.push(new Swiper('.last_comments_s' + i, options))
@@ -350,6 +342,15 @@ document.addEventListener('DOMContentLoaded', function () {
 			placeholder: el.getAttribute('data-placeholder')
 		}))
 	}
+
+
+	// Закрываем всплывашку при клике за её пределами
+	$(document).click(e => {
+		if ($(e.target).closest('.responsive_menu').length === 0) {
+			$('.responsive_menu .more_btn').removeClass('active')
+			$('.responsive_menu .dropdown').removeClass('show').hide()
+		}
+	})
 })
 
 
