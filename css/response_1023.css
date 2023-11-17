@@ -178,6 +178,16 @@
 
 
 
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
     /*----------------
         Typography
     ----------------*/
@@ -768,6 +778,12 @@
     .events.bg_green .block_head .desc
     {
         width: 344px;
+    }
+
+
+    .events .block_title
+    {
+        font-size: var(--font_size_title);
     }
 
 

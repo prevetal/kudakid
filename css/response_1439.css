@@ -321,6 +321,13 @@
     }
 
 
+    .last_comments .swiper-button-prev,
+    .last_comments .swiper-button-next
+    {
+        display: none;
+    }
+
+
     .last_comments .item
     {
         padding: 20px;
@@ -403,6 +410,13 @@
     {
         width: 392px;
         margin-left: 32px;
+    }
+
+
+    .top_selections .swiper-button-prev,
+    .top_selections .swiper-button-next
+    {
+        display: none;
     }
 
 
@@ -619,6 +633,18 @@
     /*-----------------
         Collections
     -----------------*/
+    .collections
+    {
+        padding-top: 0;
+    }
+
+
+    .collections .bg
+    {
+        display: none;
+    }
+
+
     .collections .item .info
     {
         padding: 20px;
