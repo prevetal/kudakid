@@ -32,6 +32,7 @@
 		<link rel="stylesheet" href="css/fancybox.css" async>
 		<link rel="stylesheet" href="css/styles.css" async>
 
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
 		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
 		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
 		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
@@ -42,95 +43,81 @@
 		<div class="wrap">
 			<div class="main">
 				<header>
-					<button class="mob_close_btn"></button>
-
-					<div class="scroll">
-						<div class="cont row">
-							<div class="logo">
-								<img src="images/logo.svg" alt="">
-							</div>
-
-							<div class="data">
-								<div class="row">
-									<div class="links">
-										<div><a href="/">Музеи</a></div>
-										<div><a href="/">Театр</a></div>
-										<div><a href="/">Кино</a></div>
-										<div><a href="/">Квесты</a></div>
-										<div><a href="/">Парки</a></div>
-										<div><a href="/">Обучение</a></div>
-										<div><a href="/">Природа</a></div>
-									</div>
-
-									<div class="account">
-										<button class="btn modal_btn" data-modal="auth_modal">Войти</button>
-									</div>
-								</div>
-
-								<div class="row">
-									<div class="search">
-										<form action="">
-											<input type="text" name="" value="" class="input" placeholder="поиск">
-
-											<button type="submit" class="submit_btn">
-												<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
-											</button>
-										</form>
-									</div>
-
-									<nav class="menu">
-										<div class="responsive_menu row">
-											<div class="item">
-												<a href="/">День Рождения</a>
-											</div>
-
-											<div class="item">
-												<a href="/">Бесплатно</a>
-											</div>
-
-											<div class="item">
-												<a href="/">Подмосковье и область</a>
-											</div>
-
-											<div class="item">
-												<a href="/">Рекомендуем</a>
-											</div>
-
-											<div class="item">
-												<a href="/">День Рождения</a>
-											</div>
-
-											<div class="item">
-												<a href="/">Бесплатно</a>
-											</div>
-
-											<div class="item">
-												<a href="/">Подмосковье и область</a>
-											</div>
-
-											<div class="item">
-												<a href="/">Рекомендуем</a>
-											</div>
-										</div>
-									</nav>
-								</div>
-							</div>
-						</div>
-					</div>
-				</header>
-
-
-				<section class="mob_header">
 					<div class="cont row">
 						<div class="logo">
 							<img src="images/logo.svg" alt="">
 						</div>
 
-						<button class="mob_menu_btn">
-							<span></span>
-						</button>
+						<div class="data">
+							<div class="row">
+								<div class="links">
+									<div><a href="/">Музеи</a></div>
+									<div><a href="/">Театр</a></div>
+									<div><a href="/">Кино</a></div>
+									<div><a href="/">Квесты</a></div>
+									<div><a href="/">Парки</a></div>
+									<div><a href="/">Обучение</a></div>
+									<div><a href="/">Природа</a></div>
+								</div>
+
+								<div class="account">
+									<button class="btn modal_btn" data-modal="auth_modal">
+										<span>Войти</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+									</button>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="поиск">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+
+								<nav class="menu">
+									<div class="responsive_menu row">
+										<div class="item">
+											<a href="/">День Рождения</a>
+										</div>
+
+										<div class="item">
+											<a href="/">Бесплатно</a>
+										</div>
+
+										<div class="item">
+											<a href="/">Подмосковье и область</a>
+										</div>
+
+										<div class="item">
+											<a href="/">Рекомендуем</a>
+										</div>
+
+										<div class="item">
+											<a href="/">День Рождения</a>
+										</div>
+
+										<div class="item">
+											<a href="/">Бесплатно</a>
+										</div>
+
+										<div class="item">
+											<a href="/">Подмосковье и область</a>
+										</div>
+
+										<div class="item">
+											<a href="/">Рекомендуем</a>
+										</div>
+									</div>
+								</nav>
+							</div>
+						</div>
 					</div>
-				</section>
+				</header>
 
 
 				<section class="page_head">
@@ -193,7 +180,7 @@
 											<div>Завтра</div>
 										</label>
 
-										<button class="choose_date_btn">Выбрать дату</button>
+										<button type="button" class="choose_date_btn">Выбрать дату</button>
 									</div>
 								</div>
 
@@ -489,7 +476,7 @@
 
 
 						<div class="events tabs_container">
-							<div class="block_head">
+							<div class="block_head center">
 								<div class="title">Самое интересное в Москве</div>
 							</div>
 
@@ -662,7 +649,7 @@
 				</section>
 
 
-				<section class="telegram_block">
+				<section class="telegram_block min_mob_pad">
 					<div class="cont">
 						<div class="data">
 							<div class="block_head">

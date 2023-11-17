@@ -4,6 +4,34 @@
     /*-------------------
         Global styles
     -------------------*/
+    :root
+    {
+        --font_size: 10px;
+        --font_size_title: 32px;
+    }
+
+
+    .content_flex.bg
+    {
+        padding: 20px 0;
+    }
+
+
+    .cont
+    {
+        padding: 0 15px;
+    }
+
+
+    .bg_white
+    {
+        padding: 40px 0;
+    }
+
+    .bg_white > * + *
+    {
+        margin-top: 48px;
+    }
 
 
 
@@ -12,60 +40,646 @@
     --------------*/
     .fancybox__slide
     {
-        padding: 20px;
+        padding: 15px;
     }
 
 
 
-    /*-----------------
-        Mob. header
-    -----------------*/
+    /*----------
+        Tabs
+    ----------*/
+    .tabs .btn
+    {
+        height: 32px;
+    }
 
 
 
-    /*-------------
-        Sidebar
-    -------------*/
+    /*------------
+        Header
+    ------------*/
+    header .data
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    header .data .row + .row
+    {
+        margin: 0;
+    }
+
+
+    header .links
+    {
+        margin-left: -5px;
+    }
+
+    header .links > *,
+    header .links > * + *
+    {
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+
+    header .links a
+    {
+        min-width: 60px;
+    }
+
+
+    header .account
+    {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+
+        margin: 0;
+    }
+
+
+    header .search
+    {
+        position: absolute;
+        top: 16px;
+        right: 56px;
+
+        margin: 0;
+    }
+
+
+    header .menu
+    {
+        width: 100%;
+        margin-top: 6px;
+        margin-bottom: -4px;
+        margin-left: 0;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 24px;
+    }
+
+
+    header .responsive_menu .dropdown
+    {
+        width: 220px;
+        margin-top: -4px;
+    }
+
+
+    header .responsive_menu .dropdown .item > a
+    {
+        line-height: 36px;
+
+        height: 36px;
+        padding: 0 16px;
+    }
 
 
 
     /*---------------
         Page head
     ---------------*/
+    .page_title.red .count
+    {
+        line-height: 68px;
+
+        width: 68px;
+        height: 68px;
+    }
+
+    .page_title.red .count + *
+    {
+        width: calc(100% - 84px);
+    }
+
+
+
+    .page_desc
+    {
+        font-size: 12px;
+
+        width: 100%;
+    }
 
 
 
     /*----------------
         Block head
     ----------------*/
+    .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 13px;
+
+        margin-top: 16px;
+    }
 
 
 
-    /*------------------
-        Form elements
-    ------------------*/
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 32px 0;
+    }
+
+
+
+    /*-------------------
+        Ad on website
+    -------------------*/
+    .ad_on_website
+    {
+        padding: 20px 0;
+    }
 
 
 
     /*----------------
-        Typography
+        About info
     ----------------*/
+    .about_info
+    {
+        padding: 20px 0;
+    }
+
+
+
+    /*---------------------
+        Posting formats
+    ---------------------*/
+    .posting_formats
+    {
+        padding: 20px 0;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .article_info .author .name
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*--------------------
+        Telegram block
+    --------------------*/
+    .telegram_block
+    {
+        padding: 80px 0;
+    }
+
+    .telegram_block.min_mob_pad
+    {
+        padding-bottom: 48px;
+    }
+
+
+    .telegram_block .bg
+    {
+        top: 80px;
+
+        width: 128px;
+    }
+
+
+    .telegram_block .data
+    {
+        width: 100%;
+    }
+
+
+    .telegram_block .block_head
+    {
+        padding-left: 148px;
+    }
+
+
+    .telegram_block .exp
+    {
+        width: 100%;
+        padding-left: 148px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        padding: 48px 0;
+    }
+
+
+    .articles .block_head
+    {
+        margin-bottom: 24px;
+
+        justify-content: flex-start;
+    }
+
+
+    .articles .block_head .desc
+    {
+        width: 232px;
+        margin-left: 24px;
+    }
+
+
+    .articles .row
+    {
+        display: block;
+
+        margin-left: 0;
+    }
+
+
+    .articles .row > *,
+    .articles .row > *.big
+    {
+        width: 460px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Last comments
+    -------------------*/
+    .last_comments .item .author .name,
+    .last_comments .item .review_of .val
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Selections
+    ----------------*/
+    .selections .name
+    {
+        font-size: 17px;
+    }
+
+
+    .selections .link
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*--------------------
+        TOP selections
+    --------------------*/
+    .top_selections
+    {
+        padding: 48px 0;
+    }
+
+
+    .top_selections .block_head .title .count
+    {
+        line-height: 68px;
+
+        width: 68px;
+        height: 68px;
+    }
+
+    .top_selections .block_head .title .count + *
+    {
+        width: calc(100% - 84px);
+    }
+
+
+    .top_selections .block_head .desc
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .top_selections .item .thumb
+    {
+        max-width: 240px;
+        max-height: 200px;
+    }
+
+
+    .top_selections .item .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Event head
+    ----------------*/
+    .event_head
+    {
+        min-height: 400px;
+        padding-bottom: 24px;
+    }
+
+
+    .event_head .schedule_btn,
+    .event_head .events_btn
+    {
+        width: 168px;
+    }
+
+
+    .event_head .all_link
+    {
+        right: 15px;
+        bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info
+    {
+        padding: 40px 0;
+    }
+
+
+    .event_info .features
+    {
+        margin-left: -12px;
+        padding-bottom: 28px;
+    }
+
+    .event_info .features > *
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*--------------------
+        Event schedule
+    --------------------*/
+    .event_schedule .block_head
+    {
+        margin-top: -16px;
+        margin-bottom: 24px;
+    }
+
+
+    .event_schedule .tabs
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .event_schedule .item
+    {
+        padding-bottom: 15px;
+    }
+
+    .event_schedule .item + .item
+    {
+        padding-top: 16px;
+    }
+
+
+    .event_schedule .item .date
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------------
+        Place events
+    ------------------*/
+    .place_events .head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-------------------
+        Event reviews
+    -------------------*/
+    .event_reviews .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .event_reviews .add_review .img
+    {
+        display: none;
+    }
+
+
+    .event_reviews .add_review .title
+    {
+        font-size: 15px;
+    }
+
+
+    .event_reviews .item .author .name
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*--------------------
+        Event location
+    --------------------*/
+    .event_location
+    {
+        padding: 70px 0 24px;
+    }
+
+
+    .event_location .map
+    {
+        height: 280px;
+    }
+
+    .event_location .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Search result
+    -------------------*/
+    .search_result
+    {
+        padding: 24px 0 40px;
+    }
+
+
+    .search_result .head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .search_result .events + .events
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter .form .status,
+    .filter .form .when
+    {
+        width: calc(100% - 10px);
+    }
+
+
+    .filter .form .when .field
+    {
+        padding: 0;
+    }
+
+
+    .filter .form .submit
+    {
+        width: calc(100% - 10px);
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .filter .form .submit_btn
+    {
+        width: calc(100% - 100px);
+        margin-right: auto;
+    }
+
+
+    .filter .form .reset_btn
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events.bg_white
+    {
+        padding: 40px 0 70px;
+    }
+
+
+    .events.bg_green
+    {
+        padding: 60px 0 70px;
+    }
+
+
+    .events.bg_green .block_head .title .bird
+    {
+        margin-bottom: -38px;
+        margin-left: -16px;
+
+        transform: scale(.6);
+    }
+
+
+    .events.bg_green .block_head .desc
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
 
 
 
     /*-----------------
-        Main slider
+        Collections
     -----------------*/
+    .collections .item .name
+    {
+        font-size: 16px;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
+    footer
+    {
+        padding: 28px 0;
+    }
+
+
+    footer .links > * + *
+    {
+        margin-left: 48px;
+    }
 
 
 
     /*-----------
         PopUp
     -----------*/
+    .modal
+    {
+        width: 360px;
+        padding: 20px;
+    }
 }

@@ -3,6 +3,17 @@
     /*-------------------
         Global styles
     -------------------*/
+    :root
+    {
+        --font_size: 9px;
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 10px;
+    }
 
 
 
@@ -11,60 +22,562 @@
     --------------*/
     .fancybox__slide
     {
-        padding: 16px;
+        padding: 10px;
     }
 
 
 
-    /*-----------------
-        Mob. header
-    -----------------*/
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        border-radius: 0 0 10px 10px;
+    }
 
 
 
-    /*-------------
-        Sidebar
-    -------------*/
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-bottom: 8px;
+
+        border-radius: 0;
+    }
+
+
+    header .logo img
+    {
+        width: 120px;
+    }
+
+
+    header .data
+    {
+        margin-top: 4px;
+    }
+
+
+    header .links a
+    {
+        height: 20px;
+    }
+
+
+    header .search
+    {
+        top: 12px;
+        right: 44px;
+
+        width: 180px;
+    }
+
+
+    header .search .input
+    {
+        font-size: 9px;
+
+        height: 20px;
+    }
+
+
+    header .account .btn,
+    header .account .btn .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    header .search .submit_btn
+    {
+        right: 10px;
+    }
+
+
+    header .account
+    {
+        top: 12px;
+        right: 10px;
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        right: 10px;
+        bottom: 2px;
+
+        width: 212px;
+        margin: 0;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 20px;
+    }
+
+
+    header .menu .item a
+    {
+        line-height: 20px;
+    }
+
+
+    header .responsive_menu .more_btn
+    {
+        height: 20px;
+    }
 
 
 
     /*---------------
         Page head
     ---------------*/
+    .page_desc
+    {
+        font-size: 11px;
+    }
 
 
 
     /*----------------
         Block head
     ----------------*/
+    .block_head
+    {
+        margin-bottom: 20px;
+    }
 
 
 
     /*------------------
         Form elements
     ------------------*/
+    .form .soc_auth
+    {
+        margin-top: 24px;
+    }
+
+
+    .form .soc_auth .label
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .form .nice-select .current
+    {
+        padding-right: 40px;
+    }
+
+
+    .form .nice-select ~ .arr
+    {
+        right: 12px;
+    }
 
 
 
     /*----------------
         Typography
     ----------------*/
+    .text_block > *,
+    .text_block .short_w > *
+    {
+        margin-bottom: 12px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .main_slider .data
+    {
+        padding: 48px 20px;
+    }
+
+
+    .first_section .main_slider .title
+    {
+        font-size: 18px;
+
+        margin-top: 12px;
+    }
+
+
+    .first_section .main_slider .desc
+    {
+        margin-top: 12px;
+    }
+
+
+    .first_section .main_slider .swiper-pagination
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------------
+        Ad on website
+    -------------------*/
+    .ad_on_website
+    {
+        border-radius: 10px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        border-radius: 10px;
+    }
+
+
+    .about_info .slider
+    {
+        border-radius: 10px;
+    }
+
+
+
+    /*---------------------
+        Posting formats
+    ---------------------*/
+    .posting_formats
+    {
+        border-radius: 10px;
+    }
+
+
+    .posting_formats .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*--------------------
+        Telegram block
+    --------------------*/
+    .telegram_block
+    {
+        padding: 68px 0;
+    }
+
+    .telegram_block.min_mob_pad
+    {
+        padding-bottom: 40px;
+    }
+
+
+    .telegram_block .bg
+    {
+        top: 68px;
+
+        width: 100px;
+    }
+
+
+    .telegram_block .block_head
+    {
+        margin-bottom: 12px;
+        padding-left: 120px;
+    }
+
+
+    .telegram_block .block_head .desc
+    {
+        margin-top: 12px;
+    }
+
+
+    .telegram_block .exp
+    {
+        padding-left: 120px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .block_head .desc
+    {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Last comments
+    -------------------*/
+    .last_comments .swiper-slide
+    {
+        width: 300px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe .form .line
+    {
+        width: 100%;
+        margin: 0 0 12px;
+    }
+
+
+    .subscribe .form .submit
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Selections
+    ----------------*/
+    .selections .name
+    {
+        font-size: 16px;
+    }
+
+
+    .selections .link
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*--------------------
+        TOP selections
+    --------------------*/
+    .top_selections
+    {
+        padding: 40px 0 70px;
+    }
+
+
+    .top_selections .item .thumb
+    {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+
+    .top_selections .item .info
+    {
+        padding: 16px;
+    }
+
+
+    .top_selections .item .name
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*----------------
+        Event head
+    ----------------*/
+    .event_head .location .address
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .event_head .schedule_btn
+    {
+        width: 100%;
+    }
+
+    .event_head .events_btn
+    {
+        width: 160px;
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info .slider
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------------
+        Event schedule
+    --------------------*/
+    .event_schedule .block_head
+    {
+        margin-top: -12px;
+    }
+
+
+    .event_schedule .tabs
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*------------------
+        Place events
+    ------------------*/
+    .place_events
+    {
+        padding: 24px 0 52px;
+    }
+
+
+    .place_events .head .title
+    {
+        font-weight: 18px;
+
+        width: 100%;
+    }
+
+
+    .place_events .sort
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Event reviews
+    -------------------*/
+    .event_reviews .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .event_reviews .add_review .title
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*--------------------
+        Event location
+    --------------------*/
+    .event_location .location .address
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+
+    /*-------------------
+        Search result
+    -------------------*/
+    .search_result
+    {
+        padding: 20px 0 40px;
+    }
+
+
+    .search_result .head
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .search_result .head .title
+    {
+        font-size: 18px;
+
+        width: 100%;
+    }
+
+
+    .search_result .sort
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .load_more_btn
+    {
+        height: 40px;
+        margin-top: 20px;
+    }
 
 
 
     /*-----------------
-        Main slider
+        Collections
     -----------------*/
+    .collections .item .thumb:after,
+    .collections .item:nth-child(2n) .thumb:after
+    {
+        background-size: 130% auto;
+    }
+
+
+
+    /*--------------
+        Marquees
+    --------------*/
+    .marquees
+    {
+        padding: 40px 0;
+    }
+
+
+    .marquees .swiper-slide
+    {
+        font-size: 12px;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
+    footer .links
+    {
+        display: block;
+    }
 
 
+    footer .links > * + *
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
 
-    /*-----------
-        PopUp
-    -----------*/
+
+    footer .links a
+    {
+        font-size: 12px;
+    }
 }

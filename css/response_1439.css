@@ -1,0 +1,642 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 300px;
+        --font_size_title: 60px;
+    }
+
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 60px);
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .bg_white
+    {
+        padding: 68px 0;
+    }
+
+    .bg_white > * + *
+    {
+        margin-top: 68px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .data
+    {
+        width: calc(100% - 324px);
+    }
+
+
+    header .links > * + *
+    {
+        margin-left: 12px;
+    }
+
+
+    header .links a
+    {
+        min-width: 100px;
+    }
+
+
+    header .account .btn
+    {
+        width: 100px;
+    }
+
+
+    header .search
+    {
+        width: 280px;
+    }
+
+
+    header .menu
+    {
+        width: calc(100% - 304px);
+    }
+
+    header .menu .item + .item
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside > * + *
+    {
+        margin-top: 60px;
+    }
+
+
+
+    aside .other_articles .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+
+    aside .other_articles .article .name
+    {
+        font-size: 18px;
+
+        width: 200px;
+    }
+
+
+    aside .other_articles .article .desc
+    {
+        margin-top: 8px;
+    }
+
+
+
+    aside .other_selections .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+
+    aside .other_selections .item .name
+    {
+        font-size: 18px;
+
+        width: 200px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title.red .count
+    {
+        line-height: 108px;
+
+        width: 108px;
+        height: 108px;
+    }
+
+    .page_title.red .count + *
+    {
+        width: calc(100% - 132px);
+    }
+
+
+    .page_desc
+    {
+        font-size: 16px;
+
+        width: 664px;
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------------
+        Ad on website
+    -------------------*/
+    .ad_on_website .form
+    {
+        margin-left: 40px;
+    }
+
+
+    .ad_on_website .form .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------------
+        Posting on website
+    ------------------------*/
+    .posting_on_website .form
+    {
+        margin-left: 40px;
+    }
+
+
+    .posting_on_website .form .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .author
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------------
+        Telegram block
+    --------------------*/
+    .telegram_block
+    {
+        padding: 140px 0;
+    }
+
+
+    .telegram_block .data
+    {
+        width: 760px;
+    }
+
+
+    .telegram_block .block_head .desc
+    {
+        margin-top: 24px;
+    }
+
+
+    .telegram_block .bg
+    {
+        top: 52px;
+        left: 40px;
+
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        padding: 80px 0;
+    }
+
+
+    .articles .block_head .desc
+    {
+        width: 392px;
+        margin-left: 32px;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .articles .row > *
+    {
+        width: 360px;
+        max-width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+    .articles .row > *.big
+    {
+        width: calc(100% - 792px);
+        max-width: calc(50% - 24px);
+    }
+
+
+    .articles .article .info
+    {
+        margin-top: -40px;
+        padding: 20px;
+    }
+
+    .articles .article.big .info
+    {
+        padding: 20px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------------
+        Last comments
+    -------------------*/
+    .last_comments .swiper-slide
+    {
+        width: 380px;
+    }
+
+
+    .last_comments .item
+    {
+        padding: 20px;
+    }
+
+
+    .last_comments .item .count
+    {
+        right: 20px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe .block_head
+    {
+        width: 644px;
+    }
+
+
+    .subscribe .form
+    {
+        margin-right: 40px;
+    }
+
+
+    .subscribe .form .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Selections
+    ----------------*/
+    .selections .desc
+    {
+        width: 652px;
+        margin-top: 24px;
+    }
+
+
+    .selections .link
+    {
+        margin-top: 24px;
+    }
+
+
+    .selections .link a
+    {
+        line-height: 44px;
+    }
+
+
+
+    /*--------------------
+        TOP selections
+    --------------------*/
+    .top_selections .block_head .title .count
+    {
+        line-height: 108px;
+
+        width: 108px;
+        height: 108px;
+    }
+
+    .top_selections .block_head .title .count + *
+    {
+        max-width: calc(100% - 132px);
+        margin-left: 24px;
+    }
+
+
+    .top_selections .block_head .desc
+    {
+        width: 392px;
+        margin-left: 32px;
+    }
+
+
+    .top_selections .item .name
+    {
+        font-size: 18px;
+
+        width: 200px;
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info
+    {
+        padding: 70px 0;
+    }
+
+
+
+    /*------------------
+        Place events
+    ------------------*/
+    .place_events
+    {
+        padding: 32px 0 62px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events.bg_green .block_head .title .bird
+    {
+        margin-left: 14px;
+    }
+
+
+    .events.bg_green .block_head .desc
+    {
+        width: 412px;
+        margin-left: 32px;
+    }
+
+
+    .events .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .events .row > *
+    {
+        width: calc(33.333% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .events .event .rating
+    {
+        left: 20px;
+    }
+
+
+    .events .event .age
+    {
+        line-height: 30px;
+
+        bottom: 60px;
+        left: 20px;
+
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .events .event .price
+    {
+        line-height: 30px;
+
+        bottom: 60px;
+        left: 60px;
+    }
+
+
+    .events .event .info
+    {
+        margin-top: -40px;
+        padding: 20px;
+    }
+
+
+    .events .event .name
+    {
+        font-size: 18px;
+    }
+
+
+    .events .event .info > *
+    {
+        width: calc(100% - 48px);
+    }
+
+
+    .events .event .favorite_btn,
+    .events .event .favorite_btn .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .events .load_more_btn
+    {
+        height: 44px;
+        margin-top: 28px;
+    }
+
+
+    .events .bg
+    {
+        top: -240px;
+
+        margin-left: -540px;
+    }
+
+
+
+    /*-------------------
+        Event reviews
+    -------------------*/
+    .event_reviews
+    {
+        padding: 48px 0;
+    }
+
+
+    .event_reviews .add_review .title
+    {
+        font-size: 18px;
+    }
+
+
+    .event_reviews .item
+    {
+        padding: 20px;
+    }
+
+
+    .event_reviews .item .count
+    {
+        right: 20px;
+    }
+
+
+
+    /*--------------------
+        Event location
+    --------------------*/
+    .event_location
+    {
+        padding: 80px 0 40px;
+    }
+
+
+
+    /*-------------------
+        Search result
+    -------------------*/
+    .search_result
+    {
+        padding: 40px 0 60px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter .form .submit
+    {
+        display: flex;
+
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 0;
+
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .filter .form .submit_btn
+    {
+        width: 200px;
+    }
+
+
+    .filter .form .reset_btn
+    {
+        width: auto;
+        margin-top: 0;
+        margin-left: 24px;
+    }
+
+
+
+    /*-----------------
+        Collections
+    -----------------*/
+    .collections .item .info
+    {
+        padding: 20px;
+    }
+
+
+
+    /*--------------
+        Marquees
+    --------------*/
+    .marquees
+    {
+        padding: 60px 0;
+    }
+
+
+    .marquees .swiper-slide
+    {
+        font-size: 18px;
+    }
+}

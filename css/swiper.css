@@ -94,13 +94,14 @@
 
     width: 100%;
     height: 4px;
+    padding: 0 10px;
 
     pointer-events: none;
 
     justify-content: center;
     align-items: center;
     align-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .swiper-pagination-bullet

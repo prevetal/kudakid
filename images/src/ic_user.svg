@@ -1,0 +1,11 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1_23348" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+<rect id="Rectangle 58" width="16" height="16" rx="8" fill="none"/>
+</mask>
+<g mask="url(#mask0_1_23348)">
+<g id="Group 1597879309">
+<rect x="0.5" y="0.5" width="15" height="15" rx="7.5" stroke="currentColor" fill="none"/>
+<path d="M3 16C3 14.6865 3.52678 13.4269 4.46447 12.4981C5.40215 11.5694 6.67392 11.0476 8 11.0476C9.32608 11.0476 10.5979 11.5694 11.5355 12.4981C12.4732 13.4269 13 14.6865 13 16H3ZM8 10.4286C5.92812 10.4286 4.25 8.76643 4.25 6.71429C4.25 4.66214 5.92812 3 8 3C10.0719 3 11.75 4.66214 11.75 6.71429C11.75 8.76643 10.0719 10.4286 8 10.4286Z" fill="currentColor"/>
+</g>
+</g>
+</svg>

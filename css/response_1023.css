@@ -4,6 +4,17 @@
     /*-------------------
         Global styles
     -------------------*/
+    :root
+    {
+        --font_size: 10px;
+        --font_size_title: 40px;
+    }
+
+
+    .content_flex.bg
+    {
+        padding: 24px 0;
+    }
 
 
 
@@ -12,7 +23,17 @@
     --------------*/
     .fancybox__slide
     {
-        padding: 24px;
+        padding: 20px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs .btn
+    {
+        height: 40px;
     }
 
 
@@ -22,109 +43,939 @@
     ------------*/
     header
     {
-        position: fixed;
-        z-index: 101;
-        top: 0;
-        left: 0;
-
-        width: 310px;
-        height: 100%;
-        min-height: -moz-available;
-        min-height: -webkit-fill-available;
-        min-height:         fill-available;
-        margin: 0;
-        padding: 0;
-
-        transition: transform .3s linear;
-        transform: translateX(-100%);
-
-        background: #fff;
+        padding: 12px 0;
     }
 
-    header.show
+
+    header .logo img
     {
-        transform: translateX(0);
+        width: 152px;
     }
 
 
-    header .scroll
+    header .data
     {
-        display: flex;
-        overflow: auto;
-
-        height: 100%;
-        min-height: -moz-available;
-        min-height: -webkit-fill-available;
-        min-height:         fill-available;
-        padding: 20px 0;
-
-        justify-content: flex-start;
-        align-items: flex-start;
-        align-content: flex-start;
-        flex-wrap: wrap;
-        overscroll-behavior-y: contain;
+        width: calc(100% - 180px);
     }
 
-    header .scroll > *
+
+    header .links > * + *
     {
-        width: 100%;
+        margin-left: 8px;
     }
 
 
-
-    /*-----------------
-        Mob. header
-    -----------------*/
-    .mob_header
+    header .links a
     {
-        display: block;
+        font-size: 8px;
+
+        min-width: 64px;
+        height: 24px;
+        padding: 7px;
     }
 
 
+    header .account .btn,
+    header .account .btn .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
 
-    /*-------------
-        Sidebar
-    -------------*/
+
+    header .search
+    {
+        width: 220px;
+        margin-left: auto;
+    }
+
+
+    header .search .input
+    {
+        font-size: 10px;
+
+        height: 24px;
+    }
+
+
+    header .menu
+    {
+        width: calc(100% - 308px);
+        margin-left: 20px;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 20px;
+    }
+
+
+    header .menu .item a
+    {
+        line-height: 24px;
+    }
+
+
+    header .responsive_menu .more_btn
+    {
+        height: 24px;
+    }
+
+    header .responsive_menu .more_btn .arr
+    {
+        margin-left: 4px;
+    }
 
 
 
     /*---------------
         Page head
     ---------------*/
+    .page_head
+    {
+        padding: 28px 0;
+    }
+
+
+    .page_title.red .count
+    {
+        line-height: 80px;
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .page_title.red .count + *
+    {
+        width: calc(100% - 96px);
+    }
+
+
+    .page_desc
+    {
+        font-size: 14px;
+
+        width: 580px;
+        margin-top: 12px;
+    }
 
 
 
     /*----------------
         Block head
     ----------------*/
+    .block_head
+    {
+        margin-bottom: 28px;
+    }
 
 
-
-    /*------------------
-        Form elements
-    ------------------*/
+    .block_head .desc
+    {
+        font-size: 15px;
+    }
 
 
 
     /*----------------
         Typography
     ----------------*/
+    .text_block h2
+    {
+        font-size: 16px;
+    }
+
+
+    .text_block * + h2
+    {
+        margin-top: 28px;
+    }
+
+
+    .text_block ul li:before
+    {
+        top: 5px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .filter .form .submit
+    {
+        padding-top: 5px;
+    }
+
+    .first_section .filter .form .submit,
+    .first_section .filter .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+    .first_section .main_slider .swiper
+    {
+        border-radius: 20px;
+    }
+
+
+    .first_section .main_slider .swiper-button-next,
+    .first_section .main_slider .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .first_section .main_slider .swiper-pagination
+    {
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        padding: 24px;
+
+        justify-content: flex-start;
+    }
+
+    .first_section .main_slider .swiper-pagination-bullet
+    {
+        background: #fff;
+    }
+
+
+    .first_section .main_slider .data
+    {
+        color: #fff;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 368px;
+        max-width: 100%;
+        min-height: 0;
+        padding: 60px 24px;
+
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .first_section .main_slider .image
+    {
+        width: 100%;
+        height: 280px;
+        margin: 0;
+
+        border-radius: 0;
+    }
+
+    .first_section .main_slider .image:before
+    {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        content: '';
+
+        border-radius: 0 0 20px 20px;
+        background: rgba(0, 0, 0, .40);
+    }
+
+
+
+    /*-------------------
+        Ad on website
+    -------------------*/
+    .ad_on_website
+    {
+        padding: 24px 0;
+    }
+
+
+    .ad_on_website .text_block
+    {
+        width: 100%;
+    }
+
+
+    .ad_on_website .form
+    {
+        width: 460px;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .ad_on_website .form .title
+    {
+        font-size: 16px;
+
+        width: 320px;
+        max-width: 100%;
+    }
+
+
+
+    /*------------------------
+        Posting on website
+    ------------------------*/
+    .posting_on_website .text_block
+    {
+        width: 100%;
+    }
+
+
+    .posting_on_website .form
+    {
+        width: 460px;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+
+    .posting_on_website .form .title
+    {
+        font-size: 16px;
+
+        width: 320px;
+        max-width: 100%;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding: 24px 0;
+    }
+
+
+    .about_info .text_block
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        order: 2;
+    }
+
+
+    .about_info .slider
+    {
+        width: 460px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------------
+        Posting formats
+    ---------------------*/
+    .posting_formats
+    {
+        margin-bottom: 40px;
+        padding: 24px 0;
+    }
+
+
+    .posting_formats .title
+    {
+        font-size: 18px;
+    }
+
+
+    .posting_formats .tabs
+    {
+        width: 320px;
+        margin: 0 auto 24px;
+
+        nav-index: 100%;
+    }
+
+
+
+    .posting_formats .row
+    {
+        display: block;
+
+        margin-left: 0;
+    }
+
+    .posting_formats .row > *
+    {
+        width: 460px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .article_info .author
+    {
+        margin-top: 12px;
+    }
+
+    .article_info .author .name
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*--------------------
+        Telegram block
+    --------------------*/
+    .telegram_block
+    {
+        padding: 100px 0;
+    }
+
+    .telegram_block.min_mob_pad
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .telegram_block .bg
+    {
+        top: 44px;
+        left: 20px;
+
+        width: 280px;
+    }
+
+
+    .telegram_block .data
+    {
+        width: 428px;
+    }
+
+
+    .telegram_block .link
+    {
+        margin-top: 16px;
+    }
+
+
+    .telegram_block .link .icon
+    {
+        width: 24px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        padding: 52px 0;
+    }
+
+
+    .articles .bg
+    {
+        display: none;
+    }
+
+
+    .articles .block_head
+    {
+        margin-bottom: 28px;
+
+        justify-content: center;
+    }
+
+
+    .articles .block_head .desc
+    {
+        width: 260px;
+    }
+
+
+    .articles .row
+    {
+        display: block;
+
+        margin-left: 0;
+    }
+
+
+    .articles .row > *,
+    .articles .row > *.big
+    {
+        width: 460px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Last comments
+    -------------------*/
+    .last_comments .swiper-slide
+    {
+        width: 320px;
+    }
+
+    .last_comments .item .author .name,
+    .last_comments .item .review_of .val
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe .block_head
+    {
+        width: 100%;
+        margin-bottom: 28px;
+
+        text-align: center;
+    }
+
+
+    .subscribe .form
+    {
+        width: 360px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .subscribe .form .title
+    {
+        font-size: 16px;
+
+        text-align: center;
+    }
+
+
+    .subscribe .form .line
+    {
+        width: calc(100% - 116px);
+        margin: 0 -40px 0 0;
+    }
+
+
+    .subscribe .form .submit
+    {
+        width: 140px;
+    }
+
+
+
+    /*----------------
+        Selections
+    ----------------*/
+    .selections .head
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .selections .name
+    {
+        font-size: 18px;
+    }
+
+
+    .selections .desc
+    {
+        margin-top: 16px;
+    }
+
+
+    .selections .link a
+    {
+        line-height: 40px;
+    }
+
+
+
+    /*--------------------
+        TOP selections
+    --------------------*/
+    .top_selections .block_head .title .count
+    {
+        line-height: 80px;
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .top_selections .block_head .title .count + *
+    {
+        max-width: calc(100% - 96px);
+    }
+
+
+    .top_selections .block_head .desc
+    {
+        width: 240px;
+    }
+
+
+    .top_selections .item .thumb
+    {
+        max-width: 300px;
+        max-height: 248px;
+    }
+
+
+    .top_selections .item .name
+    {
+        font-size: 17px;
+
+        width: 180px;
+    }
+
+
+
+    /*----------------
+        Event head
+    ----------------*/
+    .event_head .title
+    {
+        font-size: var(--font_size_title);
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info
+    {
+        padding: 48px 0;
+    }
+
+
+    .event_info .data
+    {
+        width: 100%;
+    }
+
+
+    .event_info .slider
+    {
+        width: 460px;
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+
+    .event_info .features
+    {
+        margin-left: -20px;
+    }
+
+    .event_info .features > *
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*--------------------
+        Event schedule
+    --------------------*/
+    .event_schedule .item
+    {
+        padding-bottom: 19px;
+    }
+
+    .event_schedule .item + .item
+    {
+        padding-top: 20px;
+    }
+
+
+    .event_schedule .item .date
+    {
+        font-size: 17px;
+    }
+
+
+    .event_schedule .more_btn
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------
+        Place events
+    ------------------*/
+    .place_events .head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .place_events .head
+    {
+        width: 460px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+
+        justify-content: space-between;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events.bg_green .block_head .desc
+    {
+        width: 344px;
+    }
+
+
+    .events .row
+    {
+        margin-left: 0;
+    }
+
+
+    .events .row > *
+    {
+        width: 460px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .events .event .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Event reviews
+    -------------------*/
+    .event_reviews .add_review .title
+    {
+        font-size: 16px;
+    }
+
+
+    .event_reviews .add_review .form textarea
+    {
+        height: 120px;
+        padding: 19px;
+    }
+
+
+    .event_reviews .item .author .name
+    {
+        font-size: 15px;
+    }
+
+
+    .event_reviews .more_btn
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*--------------------
+        Event location
+    --------------------*/
+    .event_location
+    {
+        padding: 80px 0 32px;
+    }
+
+
+    .event_location .map
+    {
+        height: 320px;
+    }
+
+
+    .event_location .data
+    {
+        margin-top: 20px;
+    }
+
+
+    .event_location .name
+    {
+        font-size: 17px;
+    }
+
+
+    .event_location .location
+    {
+        margin-top: 10px;
+    }
 
 
 
     /*-----------------
-        Main slider
+        Collections
     -----------------*/
+    .collections .row
+    {
+        margin-left: 0;
+    }
+
+    .collections .row > *
+    {
+        width: 460px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .collections .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*--------------
+        Marquees
+    --------------*/
+    .marquees
+    {
+        padding: 44px 0;
+    }
+
+
+    .marquees .swiper
+    {
+        padding: 16px 0;
+    }
+
+    .marquees .swiper.skew
+    {
+        margin-top: -16px;
+    }
+
+
+    .marquees .swiper-slide
+    {
+        font-size: 14px;
+    }
 
 
 
     /*------------
         Footer
     ------------*/
+    footer
+    {
+        padding: 32px 0;
+    }
+
+
+    footer .col
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .logo img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .socials
+    {
+        position: absolute;
+        top: 100px;
+        left: 0;
+
+        width: 100%;
+        margin: 0;
+
+        justify-content: center;
+    }
+
+
+    footer .links
+    {
+        display: flex;
+
+        margin-top: 112px;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .links > * + *
+    {
+        margin-top: 0;
+        margin-left: 64px;
+    }
+
+
+    footer .bg
+    {
+        display: none;
+    }
 
 
 
     /*-----------
         PopUp
     -----------*/
+    .modal
+    {
+        width: 480px;
+        padding: 28px;
+    }
 }

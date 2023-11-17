@@ -98,18 +98,10 @@ document.addEventListener('DOMContentLoaded', function () {
 			},
 			breakpoints: {
 				0: {
-					spaceBetween: 12,
+					spaceBetween: 20,
 					slidesPerView: 'auto'
 				},
-				480: {
-					spaceBetween: 20,
-					slidesPerView: 2
-				},
-				768: {
-					spaceBetween: 30,
-					slidesPerView: 3
-				},
-				1024: {
+				1440: {
 					spaceBetween: 20,
 					slidesPerView: 3
 				}
